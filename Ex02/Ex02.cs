@@ -2,7 +2,7 @@
 
 namespace Ex02
 {
-    class Program
+    class Ex02
     {
         static void Main(string[] args)
         {
@@ -15,7 +15,6 @@ namespace Ex02
             var surface = (width * height + width * depth + height * depth)*2;
             var volume = width * depth * height;
             Console.WriteLine($"表面積は{surface}㎡、体積は{volume}㎥");
-
         }
     }
 }

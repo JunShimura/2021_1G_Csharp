@@ -2,7 +2,7 @@
 
 namespace Chapter2_1
 {
-    class Program
+    class ex01
     {
         static void Main(string[] args)
         {
