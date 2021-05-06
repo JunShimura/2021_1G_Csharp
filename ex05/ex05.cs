@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ex04
+namespace ex05
 {
-    class ex04
+    class ex05
     {
         static void Main(string[] args)
         {
