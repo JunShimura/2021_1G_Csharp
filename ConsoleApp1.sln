@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex01_ex", "Ex01_ex\Ex01_ex.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteSample", "WriteSample\WriteSample.csproj", "{0A6E6090-287F-4935-BF08-FC503D55FEB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex04", "ex04\ex04.csproj", "{0B43A2A7-77CA-40EF-9C84-DB0BB2F85A67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex04", "ex04\ex04.csproj", "{0B43A2A7-77CA-40EF-9C84-DB0BB2F85A67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex04_ex", "ex04_ex\ex04_ex.csproj", "{AB5837EC-B944-4D17-BA80-A9A733A43497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex04_ex", "ex04_ex\ex04_ex.csproj", "{AB5837EC-B944-4D17-BA80-A9A733A43497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex05", "ex05\ex05.csproj", "{867DDE09-88E6-4A1F-8EE1-F9237AE7314B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex05", "ex05\ex05.csproj", "{867DDE09-88E6-4A1F-8EE1-F9237AE7314B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex07", "ex07\ex07.csproj", "{01D8D6AD-29C1-4DD1-BB54-CBDC55BBBCFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{867DDE09-88E6-4A1F-8EE1-F9237AE7314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{867DDE09-88E6-4A1F-8EE1-F9237AE7314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{867DDE09-88E6-4A1F-8EE1-F9237AE7314B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D8D6AD-29C1-4DD1-BB54-CBDC55BBBCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D8D6AD-29C1-4DD1-BB54-CBDC55BBBCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D8D6AD-29C1-4DD1-BB54-CBDC55BBBCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D8D6AD-29C1-4DD1-BB54-CBDC55BBBCFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
