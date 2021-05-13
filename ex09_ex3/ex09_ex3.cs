@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ex09_iizawa
+namespace ex09_ex3
 {
-    class ex09
+    class ex09_ex3
     {
         static void Main(string[] args)
         {
@@ -16,7 +16,7 @@ namespace ex09_iizawa
             {
                 Console.WriteLine("あいこです");
             }
-            else if (cpu == 0 && player == 2 || cpu == 1 && player == 0 || cpu == 2 && player == 1)
+            else if ((cpu - player + 3) % 3 == 1)
             {
                 Console.WriteLine("あなたの勝ちです");
             }
