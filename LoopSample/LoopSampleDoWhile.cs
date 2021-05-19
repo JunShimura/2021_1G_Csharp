@@ -9,13 +9,21 @@ namespace LoopSample
             //　５の階乗なら5x4x3x2x1=120
             Console.Write("入力した値の階乗を求めます、値を入力してください:");
             var n = int.Parse(Console.ReadLine());
-            var answer = n;
-            do
+            var answer =1;
+            if (n != 0)
             {
-                n--;
-                answer *= n;
+                answer = n;
+                do
+                {
+                    n--;
+                    answer *= n;
+                }
+                while (n > 2);
             }
-            while (n > 1);
+            else
+            {
+                answer = 1;
+            }
             Console.WriteLine($"答えは{answer}");
         }
     }
