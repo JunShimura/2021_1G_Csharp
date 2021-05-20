@@ -19,9 +19,7 @@ namespace ex11
                 }
             }
             else
-            {
-                Console.WriteLine("入力エラー");
-            }
+            { Console.WriteLine("入力エラー"); }
         }
     }
 }
