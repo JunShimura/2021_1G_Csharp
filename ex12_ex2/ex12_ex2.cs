@@ -18,73 +18,73 @@ namespace ex12_ex2
             var height = int.Parse(Console.ReadLine());
             if (width >= min && width <= max && height >= min && height <= max)
             {
-                Console.WriteLine("1.長方形");
-                var s = "";
+                //素材の準備
+                var border1 = "";   //char1の横線
+                var border2 = "";   //char2の横線
+                var dot1 = "";          //点線
+                var dot2 = "";          //点線
+                var edge = "";        //端
                 for (var j = 1; j <= width; j++) //行ごとの幅
                 {
-                    s += char1;
+                    border1 += char1;
+                    border2 += char2;
+                    if (j % 2 == 0)
+                    {
+                        dot1 += char1;
+                        dot2 += char2;
+                    }
+                    else
+                    {
+                        dot1 += char2;
+                        dot2 += char1;
+                    }
+                    if (j == 1 || j == width)
+                    {
+                        edge += char1;
+                    }
+                    else
+                    {
+                        edge += char2;
+                    }
                 }
+
+                Console.WriteLine("1.長方形");
                 for (var i = 1; i <= height; i++) //高さ
                 {
-                    Console.WriteLine(s);
+                    Console.WriteLine(border1);
                 }
                 Console.WriteLine("2.よこ縞");
-                var s0 = "";
-                for (var j = 1; j <= width; j++) //行ごとの幅
-                {
-                    s0 += char1;
-                }
-                var s1 = "";
-                for (var j = 1; j <= width; j++) //行ごとの幅
-                {
-                    s1 += char2;
-                }
+
                 for (var i = 1; i <= height; i++) //高さ
                 {
                     if (i % 2 == 0)
                     {
-                        Console.WriteLine(s0);
+                        Console.WriteLine(border1);
                     }
                     else
                     {
-                        Console.WriteLine(s1);
+                        Console.WriteLine(border2);
                     }
                 }
                 Console.WriteLine("3.縦縞");
-                s = "";
-                for (var j = 1; j <= width; j++) //行ごとの幅
-                {
-                    if (j % 2 == 0)
-                    {
-                        s += char1;
-                    }
-                    else
-                    {
-                        s += char2;
-                    }
-                }
                 for (var i = 1; i <= height; i++) //高さ
                 {
-                        Console.WriteLine(s);
+                    Console.WriteLine(dot1);
                 }
-                /*
+
                 Console.WriteLine("4.中抜け");
                 for (var i = 1; i <= height; i++) //高さ
                 {
-                    var s = "";
-                    for (var j = 1; j <= width; j++) //行ごとの幅
+                    if (i == 1 || i == height)
                     {
-                        if (i == 1 || i == height || j == 1 || j == width)
-                        {
-                            s += char1;
-                        }
-                        else
-                        {
-                            s += char2;
-                        }
+                        Console.WriteLine(border1);
                     }
-                    Console.WriteLine(s);
+                    else
+                    {
+                        Console.WriteLine(edge);
+                    }
                 }
+
                 Console.WriteLine("5.直角三角形");
                 for (var i = 1; i <= height; i++) //高さ
                 {
@@ -96,24 +96,19 @@ namespace ex12_ex2
                     }
                     Console.WriteLine(s);
                 }
+
                 Console.WriteLine("6.チェック");
                 for (var i = 1; i <= height; i++) //高さ
                 {
-                    var s = "";
-                    for (var j = 1; j <= width; j++) //行ごとの幅
+                    if (i % 2 == 0)
                     {
-                        if ((i + j) % 2 == 0)
-                        {
-                            s += char1;
-                        }
-                        else
-                        {
-                            s += char2;
-                        }
+                        Console.WriteLine(dot1);
                     }
-                    Console.WriteLine(s);
+                    else
+                    {
+                        Console.WriteLine(dot2);
+                    }
                 }
-                */
             }
             else
             {
