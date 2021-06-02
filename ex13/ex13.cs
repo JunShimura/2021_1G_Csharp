@@ -18,7 +18,7 @@ namespace ex13
             //回答を入力
             for (int i = 0; i < maxTime; i++)
             {
-                Console.WriteLine("あと{0}回答えられます、\nいくつでしょうか？", maxTime - i);
+                Console.WriteLine($"あと{maxTime - i}回答えられます、\nいくつでしょうか？");
                 int inputNum = int.Parse(Console.ReadLine());
                 if (inputNum == answer)
                 {

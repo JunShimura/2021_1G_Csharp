@@ -19,7 +19,7 @@ namespace Ex14
             var lastDiff = 0;
             for (int i = 0; i < maxTime; i++)
             {
-                Console.WriteLine($"あと{maxTime - i}回答えられます、\nいくつでしょうか？" );
+                Console.WriteLine($"あと{maxTime - i}回答えられます、\nいくつでしょうか？");
                 var inputNum = int.Parse(Console.ReadLine());
                 if (inputNum == answer)
                 {   // あたり
@@ -50,14 +50,14 @@ namespace Ex14
                         }
                     }
                     lastDiff = diff;
-                    if (inputNum > answer)
+/*                    if (inputNum > answer)
                     {
                         Console.WriteLine("もっと小さい");
                     }
                     else
                     {
                         Console.WriteLine("もっと大きい");
-                    }
+                    }*/
                 }
                 tempScore /= 2; //得点が入らないので減点
             }
