@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Ex14
+namespace ex14_ex2
 {
-    class DetermineNumber
+    class ex14_ex2
     {
         static void Main(string[] args)
         {
@@ -30,10 +30,7 @@ namespace Ex14
                 else
                 {   // はずれ
                     var diff = inputNum - answer;
-                    if (diff < 0)
-                    { //負数なのでー1をかけて絶対値にする
-                        diff *= (-1);
-                    }
+                    diff *= diff;
                     if (i > 0) //2回目以降
                     {
                         if (lastDiff < diff)
@@ -50,14 +47,6 @@ namespace Ex14
                         }
                     }
                     lastDiff = diff;
-/*                    if (inputNum > answer)
-                    {
-                        Console.WriteLine("もっと小さい");
-                    }
-                    else
-                    {
-                        Console.WriteLine("もっと大きい");
-                    }*/
                 }
                 tempScore /= 2; //得点が入らないので減点
             }
@@ -65,6 +54,3 @@ namespace Ex14
         }
     }
 }
-
-
-
