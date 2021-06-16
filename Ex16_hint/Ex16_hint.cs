@@ -16,7 +16,6 @@ namespace Ex16_hint
                 table[i] = random.Next(-100, 100);  //Randomを使う場合
                 Console.WriteLine(table[i]);
             }
-        
         }
     }
 }
