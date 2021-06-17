@@ -25,7 +25,6 @@ namespace Ex16_hintRandomToMax
                 }
             }
             Console.WriteLine($"最大値＝{max}");
-
         }
     }
 }
