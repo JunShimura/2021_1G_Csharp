@@ -59,7 +59,6 @@ namespace Ex16_ex5
             {
                 sum += table[i];
             }
-
             sw.Stop();
 
             Console.WriteLine($"最大値＝{max}\n最小値={min}\n平均={(double)sum / table.Length}");
