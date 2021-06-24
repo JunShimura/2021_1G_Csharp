@@ -7,7 +7,7 @@ namespace Ex17_ex4
     class Ex17_ex4
     {
         //設定
-        const int tableSize = 100;
+        const int tableSize = 10000;
         const int randomRangeMin = int.MinValue;
         const int randomRangeMax = int.MaxValue;
         /*     
@@ -23,8 +23,8 @@ namespace Ex17_ex4
             int[] table = new int[tableSize];
             for (int i = 0; i < table.Length; i++)
             {
-                table[i] = random.Next(randomRangeMin, randomRangeMax);  //Randomを使う場合
-                //table[i] = table.Length - i;
+                //table[i] = random.Next(randomRangeMin, randomRangeMax);  //Randomを使う場合
+                table[i] = table.Length - i;
 
                 Console.WriteLine($"table[{i}]={table[i]}");
             }
@@ -38,19 +38,14 @@ namespace Ex17_ex4
             }
             */
             IEnumerable<int> outArray = table.OrderByDescending(e => e);
+            table = outArray.ToArray();
 
             sw.Stop();
 
-            /*
              Console.WriteLine("整列後");
             for (int i = 0; i < table.Length; i++)
             {
                 Console.WriteLine($"table[{i}]={table[i]}");
-            }
-            */
-            foreach (var num in outArray)
-            {
-                Console.WriteLine(num);
             }
 
             Console.WriteLine("■処理Aにかかった時間");

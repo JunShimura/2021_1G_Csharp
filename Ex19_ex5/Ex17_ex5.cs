@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections;
 
-namespace Ex17_ex3
+namespace Ex19_ex5
 {
-    class Ex17_ex3
+    class Ex17_ex5
     {
         //設定
-        const int  tableSize = 10000;
+        const int tableSize = 10000;
         const int randomRangeMin = int.MinValue;
         const int randomRangeMax = int.MaxValue;
         /*     
@@ -29,9 +30,10 @@ namespace Ex17_ex3
             }
 
             sw.Start();
+            Array.Sort(table, new ReverseComparer());
 
-            Array.Sort(table);
-            Array.Reverse(table);
+            //Array.Reverse(table);
+            //Array.Sort(words, revComparer);
 
             sw.Stop();
 
@@ -46,6 +48,15 @@ namespace Ex17_ex3
             Console.WriteLine($"　{ts}");
             Console.WriteLine($"　{ts.Hours}時間 {ts.Minutes}分 {ts.Seconds}秒 {ts.Milliseconds}ミリ秒");
             Console.WriteLine($"　{sw.ElapsedMilliseconds}ミリ秒");
+        }
+    }
+
+    public class ReverseComparer : IComparer
+    {
+        // Call CaseInsensitiveComparer.Compare with the parameters reversed.
+        public int Compare(Object x, Object y)
+        {
+            return (new CaseInsensitiveComparer()).Compare(y, x);
         }
     }
 }
