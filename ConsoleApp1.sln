@@ -127,9 +127,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex17_ex3", "Ex17_ex3\Ex17_e
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex17_ex4", "Ex17_ex4\Ex17_ex4.csproj", "{DCB8F934-0259-454E-B818-CDA5B28C510F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex17_ex5", "Ex19_ex5\Ex17_ex5.csproj", "{70FE59B8-6D2C-4F2E-96C6-70A9577F76DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex17_ex5", "Ex19_ex5\Ex17_ex5.csproj", "{70FE59B8-6D2C-4F2E-96C6-70A9577F76DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge02_hint", "Challenge02_hint\Challenge02_hint.csproj", "{401C2ABF-4DF6-409A-808D-A1262435D659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge02_hint", "Challenge02_hint\Challenge02_hint.csproj", "{401C2ABF-4DF6-409A-808D-A1262435D659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge02_hint_FYoriginal", "Challenge02_hint_FYoriginal\Challenge02_hint_FYoriginal.csproj", "{B16718F6-14D3-48C3-AB7D-B2CA612F18A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +395,10 @@ Global
 		{401C2ABF-4DF6-409A-808D-A1262435D659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{401C2ABF-4DF6-409A-808D-A1262435D659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{401C2ABF-4DF6-409A-808D-A1262435D659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16718F6-14D3-48C3-AB7D-B2CA612F18A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16718F6-14D3-48C3-AB7D-B2CA612F18A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16718F6-14D3-48C3-AB7D-B2CA612F18A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16718F6-14D3-48C3-AB7D-B2CA612F18A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
