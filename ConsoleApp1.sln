@@ -135,9 +135,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge02_hint_FYoriginal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge02_hint_FYevolve", "Challenge02_hint_FYevolve\Challenge02_hint_FYevolve.csproj", "{C49B4DE8-4B16-4BC5-92FF-AA100B3CA272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge02_hint_FYevolve_20wave_hint", "Challenge02_hint_FYevolve_20wave_hint\Challenge02_hint_FYevolve_20wave_hint.csproj", "{0808F809-1470-4EDD-8C0B-ED241CCEE58D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge02_hint_FYevolve_20wave_hint", "Challenge02_hint_FYevolve_20wave_hint\Challenge02_hint_FYevolve_20wave_hint.csproj", "{0808F809-1470-4EDD-8C0B-ED241CCEE58D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge02_hint_FYevolve_20wave_arrayCheck", "Challenge02_hint_FYevolve_20wave_arrayCheck\Challenge02_hint_FYevolve_20wave_arrayCheck.csproj", "{61AA3BBD-E8D0-4100-A8EE-604125510FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge02", "Challenge02_hint_FYevolve_20wave_arrayCheck\Challenge02.csproj", "{61AA3BBD-E8D0-4100-A8EE-604125510FEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
