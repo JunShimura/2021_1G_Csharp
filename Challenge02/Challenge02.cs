@@ -25,7 +25,7 @@ namespace Challenge02 {
                     for (var j = 0; j < tetrimino.Length - 1; j++)
                     {
                         var source = random.Next(j , tetrimino.Length);    //入れ替える相手の指標
-                                                                              //　交換
+                        //　交換
                         var temp = wave[i, j];
                         wave[i, j] = wave[i, source];
                         wave[i, source] = temp;
