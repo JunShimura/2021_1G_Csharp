@@ -15,6 +15,7 @@ namespace Challenge01_hint
             var candy = int.Parse(Console.ReadLine());
             var evolve = 0; // 進化した数
 
+
         }
     }
 }
