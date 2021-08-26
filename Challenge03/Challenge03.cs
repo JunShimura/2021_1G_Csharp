@@ -6,6 +6,7 @@ namespace Challenge03
     {
         static char[] t = new char[7] { 'I', 'O', 'S', 'Z', 'J', 'L', 'T' };
         static char[,] minoPattern = new char[5040,7];
+        static int minoPatternId = 0;
 
         static void Main(string[] args)
         {
@@ -55,23 +56,31 @@ namespace Challenge03
 
                                 for (int i5 = 0; i5 < l5.Length; i5++)
                                 {
-                                    /*
-                                    char[] l6 = new char[l5.Length];
+                                    char[] l6 = new char[l5.Length - 1];
                                     s[5] = l5[i5];
-                                    l6.Remove(l5[i5]);
-                                    for (int i6 = 0; i6 < l6.Count; i6++)
+                                    Array.Copy(l5, 0, l6, 0, i5); //前半部のコピー
+                                    Array.Copy(l5, i5 + 1, l6, i5, l6.Length - i5); //後半部のコピー
+                                    for (int i6 = 0; i6 < l6.Length; i6++)
                                     {
                                         s[6] = l6[i6];
-                                        minoPattern.Add(new string(s));
+                                        // Console.Write($"{ minoPatternId.ToString()}:");
+                                        for (int i7 = 0; i7 < s.Length; i7++)
+                                        {
+                                            minoPattern[minoPatternId, i7] = s[i7];
+                                            // Console.Write(minoPattern[minoPatternId, i7]);
+                                        }
+                                        minoPatternId++;
+                                        // Console.WriteLine();
                                     }
-                                    */
                                 }
                             }
                         }
                     }
                 }
-
             }
+            //　全パターン作成が完了、20パターンをランダムで抽出
+
+
         }
     }
 }
