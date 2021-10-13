@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Ex22_hint
+namespace Ex22_hint2
 {
-    class Ex22_hint
+    class Ex22_hint2
     {
 
         const float rMin = 1; //半径の最小値
@@ -16,8 +16,7 @@ namespace Ex22_hint
             //　半径の入力処理
             while (true)
             {
-                Console.WriteLine($"半径は幾つですか？\n範囲は{rMin}から{rMax}");
-                r = float.Parse(Console.ReadLine());
+                r = InputFloat($"半径は幾つですか？\n範囲は{rMin}から{rMax}");
                 if (r >= rMin && r < rMax)
                 { //値は適正
                     break;
@@ -30,8 +29,7 @@ namespace Ex22_hint
             float h = 0; //高さ
             while (true)
             {
-                Console.WriteLine($"高さは幾つですか？\n範囲は{hMin}から{hMax}");
-                h = float.Parse(Console.ReadLine());
+                h = InputFloat($"高さは幾つですか？\n範囲は{hMin}から{hMax}");
                 if (h >= rMin && h < rMax)
                 { //値は適正
                     break;
@@ -63,6 +61,12 @@ namespace Ex22_hint
             float volume = GetCircleSurface(radius) * height;
             return volume;
         }
-    }
 
+        static float InputFloat(string message)
+        {
+            Console.WriteLine(message);
+            float i = float.Parse(Console.ReadLine());
+            return i;
+        }
+    }
 }
