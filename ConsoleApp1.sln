@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverLoad", "OverLoad\OverLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionParameters", "OptionParameters\OptionParameters.csproj", "{6B90FDDA-1A8C-4725-ABD3-E3EB89C9F9AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parames", "Parames\Parames.csproj", "{0AB65076-A927-4360-98DB-CB5D3153533C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -573,6 +575,10 @@ Global
 		{6B90FDDA-1A8C-4725-ABD3-E3EB89C9F9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B90FDDA-1A8C-4725-ABD3-E3EB89C9F9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B90FDDA-1A8C-4725-ABD3-E3EB89C9F9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB65076-A927-4360-98DB-CB5D3153533C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB65076-A927-4360-98DB-CB5D3153533C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB65076-A927-4360-98DB-CB5D3153533C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB65076-A927-4360-98DB-CB5D3153533C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
