@@ -193,7 +193,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionParameters", "OptionP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parames", "Parames\Parames.csproj", "{0AB65076-A927-4360-98DB-CB5D3153533C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex23_hint", "Ex23_hint\Ex23_hint.csproj", "{27767723-A915-422C-825C-2A0B0F0F1D6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex23_hint", "Ex23_hint\Ex23_hint.csproj", "{27767723-A915-422C-825C-2A0B0F0F1D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex23", "Ex23\Ex23.csproj", "{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -585,6 +587,10 @@ Global
 		{27767723-A915-422C-825C-2A0B0F0F1D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27767723-A915-422C-825C-2A0B0F0F1D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27767723-A915-422C-825C-2A0B0F0F1D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

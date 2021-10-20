@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Ex23_hint
+namespace Ex23
 {
-    class Ex23_hint
+    class Ex23
     {
         const int headMin = 0;        // 頭の数の最小値
         const int headMax = 1000;  // 頭の数の最大値 
@@ -11,11 +11,19 @@ namespace Ex23_hint
 
         static void Main(string[] args)
         {
-            var heads = InputNumber(headMax,headMin,"頭の数を入力してください");
-            var legs = InputNumber("脚の数を入力してください");
-            var turtle = legs / 2 - heads;
-            var crane = heads - turtle;
-            Console.WriteLine($"鶴の数{crane}.亀の数{turtle}");
+            while (true)
+            {
+                var heads = InputNumber(headMax, headMin, "頭の数を入力してください");
+                var legs = InputNumber(legMax, legMin, "脚の数を入力してください");
+                var turtle = (float)legs / 2 - heads;
+                var crane = (float)heads - turtle;
+                Console.WriteLine($"鶴の数{crane}.亀の数{turtle}");
+                if (turtle>=0 && crane >= 0 && turtle==Math.Floor(turtle ) && crane==Math.Floor(crane))
+                {
+                    break;
+                }
+                Console.WriteLine("入力エラーです、再度、頭と脚の数を入力してください");
+            }
         }
 
         //入力用に作った汎用的関数
