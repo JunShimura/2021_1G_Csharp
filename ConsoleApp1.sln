@@ -195,7 +195,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parames", "Parames\Parames.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex23_hint", "Ex23_hint\Ex23_hint.csproj", "{27767723-A915-422C-825C-2A0B0F0F1D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex23", "Ex23\Ex23.csproj", "{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex23", "Ex23\Ex23.csproj", "{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex23_ex2", "Ex23_ex2\Ex23_ex2.csproj", "{3C254529-12F8-4DE7-8147-741CA033B104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception\Exception.csproj", "{9978B8BF-14C5-4B60-B1BE-8FB90463CAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex24_hint", "Ex24_hint\Ex24_hint.csproj", "{44335989-E045-4BEC-AB57-61255F9B2147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -591,6 +597,18 @@ Global
 		{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD56E53-C4AE-4B43-B7C7-25C4EE87A329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C254529-12F8-4DE7-8147-741CA033B104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C254529-12F8-4DE7-8147-741CA033B104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C254529-12F8-4DE7-8147-741CA033B104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C254529-12F8-4DE7-8147-741CA033B104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9978B8BF-14C5-4B60-B1BE-8FB90463CAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9978B8BF-14C5-4B60-B1BE-8FB90463CAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9978B8BF-14C5-4B60-B1BE-8FB90463CAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9978B8BF-14C5-4B60-B1BE-8FB90463CAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44335989-E045-4BEC-AB57-61255F9B2147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44335989-E045-4BEC-AB57-61255F9B2147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44335989-E045-4BEC-AB57-61255F9B2147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44335989-E045-4BEC-AB57-61255F9B2147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

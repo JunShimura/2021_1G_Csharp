@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Ex23
+namespace Ex24_hint
 {
-    class Ex23
+    class Ex24_hint
     {
         const int headMin = 0;        // 頭の数の最小値
         const int headMax = 1000;  // 頭の数の最大値 
@@ -18,7 +19,7 @@ namespace Ex23
                 var turtle = GetTurtle(legs, heads);
                 var crane = GetCrane(legs, heads);
                 Console.WriteLine($"鶴の数{crane}.亀の数{turtle}");
-                if (AnswerCheck(crane,turtle))
+                if (AnswerCheck(crane, turtle))
                 {
                     break;
                 }
@@ -37,12 +38,19 @@ namespace Ex23
         }
 
         // 答えが正常か確認
-        static bool AnswerCheck(float crane,float turtle)
+        static bool AnswerCheck(float crane, float turtle)
         {
-            //if (turtle >= 0 && crane >= 0 && (turtle * 10) % 10 == 0 && (crane * 10) % 10 == 0)
-            //if (turtle >= 0 && crane >= 0 && heads == (Math.Floor(turtle) + Math.Floor(crane)))
-            return (turtle >= 0 && crane >= 0 && turtle == Math.Floor(turtle) && crane == Math.Floor(crane));
+            return (IsNaturalNumber(turtle) && IsNaturalNumber(crane));
         }
+        static bool IsNaturalNumber(float num) 
+        {
+            return (num==0 && num==Math.Floor(num));
+        }
+        static bool IsNaturalNumber(double num)
+        {
+            return (num == 0 && num == Math.Floor(num));
+        }
+
 
         //入力用に作った汎用的関数
         static int InputNumber(string message)
