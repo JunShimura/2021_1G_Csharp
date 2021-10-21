@@ -203,6 +203,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception\Exce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex24_hint", "Ex24_hint\Ex24_hint.csproj", "{44335989-E045-4BEC-AB57-61255F9B2147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex24", "Ex24\Ex24.csproj", "{A18C40E1-02B0-4E50-837A-BA6A46E4308C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -609,6 +611,10 @@ Global
 		{44335989-E045-4BEC-AB57-61255F9B2147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44335989-E045-4BEC-AB57-61255F9B2147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44335989-E045-4BEC-AB57-61255F9B2147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18C40E1-02B0-4E50-837A-BA6A46E4308C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18C40E1-02B0-4E50-837A-BA6A46E4308C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18C40E1-02B0-4E50-837A-BA6A46E4308C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18C40E1-02B0-4E50-837A-BA6A46E4308C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
