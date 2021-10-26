@@ -43,11 +43,11 @@ namespace Ex24
         }
         static bool IsNaturalNumber(float num)
         {
-            return (num == 0 && num == Math.Floor(num));
+            return (num >= 0 || num == Math.Floor(num));
         }
         static bool IsNaturalNumber(double num)
         {
-            return (num == 0 && num == Math.Floor(num));
+            return (num >= 0 && num == Math.Floor(num));
         }
 
         //入力用に作った汎用的関数
