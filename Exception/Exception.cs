@@ -4,9 +4,19 @@ class Exception
 {
     static void Main(string[] args)
     {
-        int a, b, c=0;
-
-        a = int.Parse(Console.ReadLine());
+        int a=0, b=0, c=0;
+        try
+        {
+            a = int.Parse(Console.ReadLine());
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("数値ではありません");
+        }
+        catch (OverflowException)
+        {
+            Console.WriteLine("値が大きすぎます");
+        }
         b = int.Parse(Console.ReadLine());
         try
         {

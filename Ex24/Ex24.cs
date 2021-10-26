@@ -43,7 +43,7 @@ namespace Ex24
         }
         static bool IsNaturalNumber(float num)
         {
-            return (num >= 0 || num == Math.Floor(num));
+            return (num >= 0 && num == Math.Floor(num));
         }
         static bool IsNaturalNumber(double num)
         {
@@ -53,29 +53,29 @@ namespace Ex24
         //入力用に作った汎用的関数
         static int InputNumber(string message)
         {
+            Console.WriteLine(message);
             int i = 0;
             while (true)
             {
-                Console.WriteLine(message);
                 try
                 {
                     i = int.Parse(Console.ReadLine());
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("数ではありません");
+                    OutputColoeredText("数ではありません、もう一度、入力して下さい", ConsoleColor.Red);
                     continue;
                 }
                 catch (OverflowException)
                 {
-                    Console.WriteLine("値が大きすぎます");
+                    OutputColoeredText("扱える値の範囲外です、もう一度、入力して下さい", ConsoleColor.Red);
                     continue;
                 }
                 break;
             }
             return i;
         }
-        static int InputNumber(int max, string message = "値を入力してください", string errorMessage = "入力エラー")
+        static int InputNumber(int max, string message = "値を入力してください", string errorMessage = "値が範囲外です")
         {
             return InputNumber(max, 1, message, errorMessage);
         }
@@ -83,7 +83,7 @@ namespace Ex24
             int max,  //必ず指定するのでオプション無し
             int min = 1,
             string message = "値を入力してください",
-            string errorMessage = "入力エラー")
+            string errorMessage = "値が範囲外です")
         {
             int i;
             while (true)
@@ -133,5 +133,12 @@ namespace Ex24
             }
             return i;
         }
+        static void OutputColoeredText(string s,ConsoleColor c)
+        {
+            Console.ForegroundColor = c;
+            Console.WriteLine(s);
+            Console.ResetColor();
+        }
+
     }
 }
