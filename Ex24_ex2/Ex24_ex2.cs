@@ -1,9 +1,10 @@
 ﻿using System;
 
-namespace Ex24
+namespace Ex24_ex2
 {
-    class Ex24
+    class Ex24_ex2
     {
+
         const int headMin = 0;        // 頭の数の最小値
         const int headMax = 1000;  // 頭の数の最大値 
         const int legMin = 0;           // 脚の数の最小値
@@ -57,21 +58,14 @@ namespace Ex24
             int i = 0;
             while (true)
             {
-                try
+                if (int.TryParse(Console.ReadLine(), out i))
                 {
-                    i = int.Parse(Console.ReadLine());
+                    break;
                 }
-                catch (FormatException)
+                else
                 {
-                    OutputColoredText("数ではありません、もう一度、入力して下さい", ConsoleColor.Red);
-                    continue;
+                    OutputColoredText("異常な入力です、もう一度、入力して下さい", ConsoleColor.Red);
                 }
-                catch (OverflowException)
-                {
-                    OutputColoredText("扱える値の範囲外です、もう一度、入力して下さい", ConsoleColor.Red);
-                    continue;
-                }
-                break;
             }
             return i;
         }
@@ -133,7 +127,7 @@ namespace Ex24
             }
             return i;
         }
-        static void OutputColoredText(string s,ConsoleColor c)
+        static void OutputColoredText(string s, ConsoleColor c)
         {
             Console.ForegroundColor = c;
             Console.WriteLine(s);
