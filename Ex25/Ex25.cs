@@ -18,7 +18,7 @@ namespace Ex25
                 var legs = InputNumber(legMax, legMin, "脚の数を入力してください");
                 int turtle;
                 int crane;
-                if(GetCraneTurtle(legs, heads,out crane,out turtle))
+                if (GetCraneTurtle(heads, legs, out crane, out turtle))
                 {
                     Console.WriteLine($"鶴の数{crane}.亀の数{turtle}");
                     break;
