@@ -209,9 +209,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryParseTest", "TryParseTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex24_ex2", "Ex24_ex2\Ex24_ex2.csproj", "{76089F8D-45F3-4D0E-9F3B-C5AB05F802F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOut", "RefOut\RefOut.csproj", "{BD6BD709-BCDA-453F-8879-964A6A583760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOut", "RefOut\RefOut.csproj", "{BD6BD709-BCDA-453F-8879-964A6A583760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex25", "Ex25\Ex25.csproj", "{34D49C7A-DB95-4933-B6C5-4E0F7F098847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex25", "Ex25\Ex25.csproj", "{34D49C7A-DB95-4933-B6C5-4E0F7F098847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOutSample", "ConsoleApp2\RefOutSample.csproj", "{601CFAA5-37E4-458B-9274-6FD08268309A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -639,6 +641,10 @@ Global
 		{34D49C7A-DB95-4933-B6C5-4E0F7F098847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34D49C7A-DB95-4933-B6C5-4E0F7F098847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34D49C7A-DB95-4933-B6C5-4E0F7F098847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601CFAA5-37E4-458B-9274-6FD08268309A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601CFAA5-37E4-458B-9274-6FD08268309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601CFAA5-37E4-458B-9274-6FD08268309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601CFAA5-37E4-458B-9274-6FD08268309A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

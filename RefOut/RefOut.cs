@@ -15,6 +15,7 @@ namespace RefOut
             TestOut(out b);
             Console.WriteLine($"{b}");
         }
+ 
 
         static void Test(ref int  a)
         {
