@@ -213,7 +213,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOut", "RefOut\RefOut.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex25", "Ex25\Ex25.csproj", "{34D49C7A-DB95-4933-B6C5-4E0F7F098847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOutSample", "ConsoleApp2\RefOutSample.csproj", "{601CFAA5-37E4-458B-9274-6FD08268309A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOutSample", "ConsoleApp2\RefOutSample.csproj", "{601CFAA5-37E4-458B-9274-6FD08268309A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputFloatTest", "InputFloatTest\InputFloatTest.csproj", "{73DDE030-35BE-4B18-AA08-6973B030E44C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -645,6 +647,10 @@ Global
 		{601CFAA5-37E4-458B-9274-6FD08268309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{601CFAA5-37E4-458B-9274-6FD08268309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{601CFAA5-37E4-458B-9274-6FD08268309A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DDE030-35BE-4B18-AA08-6973B030E44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DDE030-35BE-4B18-AA08-6973B030E44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DDE030-35BE-4B18-AA08-6973B030E44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DDE030-35BE-4B18-AA08-6973B030E44C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
