@@ -28,6 +28,14 @@ namespace Ex25
         }
 
         //　鶴亀算用の関数
+        /// <summary>
+        /// 鶴亀算の計算をする
+        /// </summary>
+        /// <param name="heads">頭の数</param>
+        /// <param name="legs">脚の数</param>
+        /// <param name="crane">[出力]鶴の数</param>
+        /// <param name="turtle">[出力]亀の数</param>
+        /// <returns>答えが正常=true、異常=false</returns>
         static bool GetCraneTurtle(int heads, int legs, out int crane, out int turtle)
         {
             float fCrane = GetCrane(legs, heads);
