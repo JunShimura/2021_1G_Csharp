@@ -4,6 +4,7 @@ namespace InputFloatTest
 {
     class InputFloatTest
     {
+        const float testMin = float.MinValue;
         static void Main(string[] args)
         {
             float f = InputFloat();
