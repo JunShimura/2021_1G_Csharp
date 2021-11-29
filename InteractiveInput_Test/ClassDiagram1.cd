@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleUtility.InteractiveInput">
+    <Position X="2" Y="2.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>InteractiveInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumberUtility.NumberCheck">
+    <Position X="6.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NumberCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleUtility.ConsoleOut">
+    <Position X="9.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>
