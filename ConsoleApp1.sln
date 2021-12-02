@@ -225,7 +225,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorSampe", "Constru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex26", "Ex26\Ex26.csproj", "{1CB31065-3FCA-431E-8CFF-D6713115A3E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex27", "Ex27\Ex27.csproj", "{8B7C8796-AD8B-45AA-AA42-E94F152B5C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex27", "Ex27\Ex27.csproj", "{8B7C8796-AD8B-45AA-AA42-E94F152B5C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex28_hint", "Ex28_hint\Ex28_hint.csproj", "{52162BC8-6157-4C0B-BB8D-A9C1AA776353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -681,6 +683,10 @@ Global
 		{8B7C8796-AD8B-45AA-AA42-E94F152B5C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B7C8796-AD8B-45AA-AA42-E94F152B5C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B7C8796-AD8B-45AA-AA42-E94F152B5C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52162BC8-6157-4C0B-BB8D-A9C1AA776353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52162BC8-6157-4C0B-BB8D-A9C1AA776353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52162BC8-6157-4C0B-BB8D-A9C1AA776353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52162BC8-6157-4C0B-BB8D-A9C1AA776353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
