@@ -8,8 +8,8 @@ namespace Ex28
     {
         private int legsA;  // 動物Aの脚の数
         private int legsB;  // 動物Bの脚の数
-        private float _heads = 0;  // 全部の頭の数
-        public float heads  // 全部の頭の数へのアクセサ
+        private int _heads = 0;  // 全部の頭の数
+        public int heads  // 全部の頭の数へのアクセサ
         {
             get
             {
@@ -17,11 +17,15 @@ namespace Ex28
             }
             set
             {
-                heads = value;
+                if (_heads != value)
+                {
+                    _heads = value;
+                    GetHeads();
+                }
             }
         }
-        private float _legs = 0;// 全部の脚の数
-        public float legs    // 全部の脚の数へのアクセサ
+        private int _legs = 0;// 全部の脚の数
+        public int legs    // 全部の脚の数へのアクセサ
         {
             get
             {
@@ -29,16 +33,38 @@ namespace Ex28
             }
             set
             {
-                if (legs != value)
+                if (_legs != value)
                 {
-                    legs = value;
+                    _legs = value;
                     GetHeads();
                 }
-                legs = value;
+                _legs = value;
             }
         }
-        public int headsA;  // 動物Aの頭数（計算で求められる）
-        public int headsB;  // 動物Bの頭数（計算で求められる）
+        private float _headsA = 0;
+        public float headsA
+        {  // 動物Aの頭数（計算で求められる）
+            get
+            {
+                return _headsA;
+            }
+            private set
+            {
+                _headsA = value;
+            }
+        }
+        private float _headsB = 0;
+        public float headsB  // 動物Bの頭数（計算で求められる）
+        {
+            get
+            {
+                return _headsB;
+            }
+            private set
+            {
+                _headsB = value;
+            }
+        }
 
         public CraneTurtle(int a, int b)
         {
@@ -54,12 +80,15 @@ namespace Ex28
         }
         public void SetHeadsLegs(int h, int l)
         {
-            heads = h;
-            legs = l;
+            _heads = h;
+            _legs = l;
+            GetHeads();
         }
         void GetHeads()
         {
             // 動物Aの頭数と動物Aの頭数を求める
+            _headsB = (_legs - _heads * legsA) / (legsB - legsA);
+            _headsA = _heads - _headsB;
         }
     }
 }
