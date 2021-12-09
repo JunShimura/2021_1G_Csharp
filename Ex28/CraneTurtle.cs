@@ -6,9 +6,9 @@ namespace Ex28
 {
     class CraneTurtle
     {
-        private int legsA;  // 動物Aの脚の数
-        private int legsB;  // 動物Bの脚の数
-        private int _heads = 0;  // 全部の頭の数
+        readonly public int legsA;  // 動物Aの脚の数(コンストラクタでのみ代入可能）
+        readonly public int legsB;  // 動物Bの脚の数(コンストラクタでのみ代入可能）
+        private int _heads = 0;     // 全部の頭の数
         public int heads  // 全部の頭の数へのアクセサ
         {
             get
@@ -41,7 +41,8 @@ namespace Ex28
                 _legs = value;
             }
         }
-        private float _headsA = 0;
+        public float headsA { get; private set; } = 0;
+        /*private float _headsA = 0;
         public float headsA
         {  // 動物Aの頭数（計算で求められる）
             get
@@ -52,20 +53,21 @@ namespace Ex28
             {
                 _headsA = value;
             }
-        }
-        private float _headsB = 0;
-        public float headsB  // 動物Bの頭数（計算で求められる）
-        {
-            get
-            {
-                return _headsB;
-            }
-            private set
-            {
-                _headsB = value;
-            }
-        }
-
+        }*/
+        public float headsB { get; private set; } = 0;
+        /*       private float _headsB = 0;
+               public float headsB  // 動物Bの頭数（計算で求められる）
+               {
+                   get
+                   {
+                       return _headsB;
+                   }
+                   private set
+                   {
+                       _headsB = value;
+                   }
+               }
+        */
         public CraneTurtle(int a, int b)
         {
             legsA = a;
@@ -87,8 +89,8 @@ namespace Ex28
         void GetHeads()
         {
             // 動物Aの頭数と動物Aの頭数を求める
-            _headsB = (_legs - _heads * legsA) / (legsB - legsA);
-            _headsA = _heads - _headsB;
+            headsB = (_legs - _heads * legsA) / (legsB - legsA);
+            headsA = _heads - headsB;
         }
     }
 }
