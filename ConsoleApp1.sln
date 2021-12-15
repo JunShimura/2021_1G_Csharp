@@ -231,7 +231,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex28_hint", "Ex28_hint\Ex28
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex28", "Ex28\Ex28.csproj", "{584284C6-ACE3-4E41-9346-6A521C784851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticSample", "StaticSample\StaticSample.csproj", "{D099A976-6DAB-427A-88D8-5B41DB985A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticSample", "StaticSample\StaticSample.csproj", "{D099A976-6DAB-427A-88D8-5B41DB985A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFunction", "StaticFunction\StaticFunction.csproj", "{37D4D1A2-75D7-431A-9E31-7360AE535B94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -699,6 +701,10 @@ Global
 		{D099A976-6DAB-427A-88D8-5B41DB985A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D099A976-6DAB-427A-88D8-5B41DB985A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D099A976-6DAB-427A-88D8-5B41DB985A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D4D1A2-75D7-431A-9E31-7360AE535B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D4D1A2-75D7-431A-9E31-7360AE535B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D4D1A2-75D7-431A-9E31-7360AE535B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D4D1A2-75D7-431A-9E31-7360AE535B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
