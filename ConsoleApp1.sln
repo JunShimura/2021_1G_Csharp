@@ -235,7 +235,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticSample", "StaticSampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFunction", "StaticFunction\StaticFunction.csproj", "{37D4D1A2-75D7-431A-9E31-7360AE535B94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex29", "Ex29\Ex29.csproj", "{79218375-1253-42BF-AFBB-96F78096412A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex29", "Ex29\Ex29.csproj", "{79218375-1253-42BF-AFBB-96F78096412A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{FA21EABB-261E-4125-ABAF-08D32E1005DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -711,6 +713,10 @@ Global
 		{79218375-1253-42BF-AFBB-96F78096412A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79218375-1253-42BF-AFBB-96F78096412A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79218375-1253-42BF-AFBB-96F78096412A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA21EABB-261E-4125-ABAF-08D32E1005DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA21EABB-261E-4125-ABAF-08D32E1005DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA21EABB-261E-4125-ABAF-08D32E1005DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA21EABB-261E-4125-ABAF-08D32E1005DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
