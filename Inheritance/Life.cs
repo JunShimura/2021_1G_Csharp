@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
+    /// <summary>
+    /// 生き物
+    /// </summary>
     class Life:Thing
     {
         readonly private string _name;

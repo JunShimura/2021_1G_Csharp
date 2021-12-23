@@ -6,7 +6,20 @@ namespace InheritanceSampleSuraSura
 {
     class Person
     {
-        public string name;
-        public int age;
+        protected string name;
+        protected int age;
+        public Person(string name,int age=0)
+        {
+            this.name = name;
+            this.age = age;
+        }
+        public void SelfIntroduction()
+        {
+            Console.WriteLine($"私の名前は{name}です、年齢は{age}です。");
+        }
+        static public void SelfIntroduction(Person p)
+        {
+            Console.WriteLine($"私の名前は{p.name}です、年齢は{p.age}です。");
+        }
     }
 }

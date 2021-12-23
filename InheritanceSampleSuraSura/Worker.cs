@@ -6,6 +6,10 @@ namespace InheritanceSampleSuraSura
 {
     class Worker:Person
     {
-        public int income;
+        private int income;
+        public Worker(string name, int age = 0,int income = 0) : base(name, age)
+        {
+            this.income = income;
+        }
     }
 }
