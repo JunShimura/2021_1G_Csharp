@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance
+namespace Ex30
 {
     /// <summary>
     /// 生き物
@@ -17,11 +17,11 @@ namespace Inheritance
         {
             get { return _birthDay; }
         }
-        new public string name
+        public string name
         {
             get { return _name; }
         }
-        public Life(DateTime bd ,string n, float  w = 0, float h = 0, float d = 0 ):base(n,w,h,d)
+        public Life(DateTime bd ,string n, float  w = 0, float h = 0, float d = 0, float weight = 0) : base(n, w, h, d, weight)
         {
             this._birthDay = bd;
         }
