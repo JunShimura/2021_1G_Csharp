@@ -6,7 +6,7 @@ namespace Ex30
 {
     class Incect:Animal
     {
-        public Incect(DateTime bd, string n, float w = 0, float h = 0, float d = 0) : base(bd, n, w, h, d)
+        public Incect(DateTime lifeSpan, DateTime bd, string n, float w = 0, float h = 0, float d = 0,float weight = 0) : base(lifeSpan, bd, n, w, h, d, weight)
         {
 
         }
