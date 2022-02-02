@@ -45,3 +45,4 @@ namespace Challenge01_ex2
             Console.WriteLine($"進化した数は{evolve}羽\n飴の残り={candy}\nポッポ={poppo}羽\nピジョン={pegion}羽");
         }
     }
+}

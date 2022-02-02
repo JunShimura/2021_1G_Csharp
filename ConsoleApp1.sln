@@ -241,7 +241,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceSampleSuraSura", "InheritanceSampleSuraSura\InheritanceSampleSuraSura.csproj", "{DC0E4AEF-510F-4853-9A15-72153EFACFA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex30", "Ex30\Ex30.csproj", "{97277CF3-63E8-4F65-8CC4-1212908A0909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex30", "Ex30\Ex30.csproj", "{97277CF3-63E8-4F65-8CC4-1212908A0909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualOverRide", "VirtualOverRide\VirtualOverRide.csproj", "{3ED36235-9340-4D7A-9ADD-966521B1FBF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -729,6 +731,10 @@ Global
 		{97277CF3-63E8-4F65-8CC4-1212908A0909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97277CF3-63E8-4F65-8CC4-1212908A0909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97277CF3-63E8-4F65-8CC4-1212908A0909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED36235-9340-4D7A-9ADD-966521B1FBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED36235-9340-4D7A-9ADD-966521B1FBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED36235-9340-4D7A-9ADD-966521B1FBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED36235-9340-4D7A-9ADD-966521B1FBF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

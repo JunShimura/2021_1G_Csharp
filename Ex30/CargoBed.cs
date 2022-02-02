@@ -59,10 +59,8 @@ namespace Ex30
             //ソートする方法
             List<float> bedScale = new List<float>() { this.width,this.height,this.depth};
             bedScale.Sort();
-            bedScale.Reverse();
             List<float> cargoScale = new List<float>() { cargo.width, cargo.height, cargo.depth };
             cargoScale.Sort();
-            cargoScale.Reverse();
             result = true;
             for(var i = 0; i < bedScale.Count; i++)
             {

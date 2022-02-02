@@ -29,7 +29,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30.Life" Collapsed="true">
-    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Position X="4.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAABAAAAAQAAAAAgAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Life.cs</FileName>
@@ -50,14 +50,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30.Plant" Collapsed="true">
-    <Position X="4.25" Y="1.75" Width="1.5" />
+    <Position X="4.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Plant.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30.Refrigerator" Collapsed="true">
-    <Position X="1.25" Y="2" Width="1.5" />
+    <Position X="2.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Refrigerator.cs</FileName>
@@ -71,7 +71,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30.Car" Collapsed="true">
-    <Position X="1.25" Y="3.25" Width="1.5" />
+    <Position X="1.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Car.cs</FileName>
@@ -92,7 +92,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30.FishTank" Collapsed="true">
-    <Position X="3.25" Y="5.5" Width="1.5" />
+    <Position X="3.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FishTank.cs</FileName>
