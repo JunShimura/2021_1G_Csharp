@@ -10,7 +10,7 @@ namespace VirtualOverRide
             Dog dog = new Dog("わん",new DateTime(20, 1, 1), new DateTime(2019, 5, 1), "わんこ");
             Animal[] animals = { cat, dog };
             SpeakAnilal(animals);
-            Console.WriteLine($"{dog.name}が{dog.Speak()}");
+            //Console.WriteLine($"{dog.name}が{dog.Speak()}");
 
         }
         static void SpeakAnilal(Animal[] animals)

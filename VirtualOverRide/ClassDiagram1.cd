@@ -14,31 +14,31 @@
       <FileName>Life.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VirtualOverRide.Cat" Collapsed="true">
-    <Position X="6.75" Y="2.75" Width="1.5" />
+  <Class Name="VirtualOverRide.Cat">
+    <Position X="8.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cat.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VirtualOverRide.Animal" Collapsed="true">
+  <Class Name="VirtualOverRide.Animal">
     <Position X="5.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>Animal.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VirtualOverRide.Program" Collapsed="true">
-    <Position X="1.5" Y="3.75" Width="1.5" />
+    <Position X="2.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VirtualOverRide.Dog" Collapsed="true">
-    <Position X="6.75" Y="4" Width="1.5" />
+  <Class Name="VirtualOverRide.Dog">
+    <Position X="8.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
       <FileName>Dog.cs</FileName>
     </TypeIdentifier>
   </Class>
