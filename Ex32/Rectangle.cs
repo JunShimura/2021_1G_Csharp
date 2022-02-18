@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Ex32
 {
+    /// <summary>
+    /// 長方形
+    /// </summary>
     class Rectangle : Surface
     {
         readonly public float width;

@@ -14,6 +14,9 @@ namespace AbstractSample
             {
                 Console.WriteLine($"surfacesの面積は{surfaces[i].GetSurface()}");
                 Console.WriteLine($"surfacesの周囲長は{surfaces[i].GetCircumference()}");
+                float width, height;
+                surfaces[i].GetBounds(out width, out height);
+                Console.WriteLine($"surfacesを囲う長方形の幅は{width},高さは{height}");
             }
         }
     

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Ex32
 {
@@ -13,11 +11,11 @@ namespace Ex32
         }
         public override float GetSurface()
         {
-            return radius * radius * MathF.PI;
+            return (float)(radius * radius * Math.PI);
         }
         public override float GetCircumference()
         {
-            return radius * 2 * MathF.PI;
+            return (float)(radius * 2 * Math.PI);
         }
         public override void GetBounds(out float width, out float height)
         {
