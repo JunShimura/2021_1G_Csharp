@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InterfaceSample
 {
-    class RectAngle : ISurface, ICircumference, IBounds, IEquatable<RectAngle>
+    class RectAngle : ISurface, ICircumference, IBounds, IEquatable<RectAngle>,IComparable<RectAngle>
     {
         readonly public float width;
         readonly public float height;
@@ -28,15 +28,37 @@ namespace InterfaceSample
         }
         public bool Equals(RectAngle other)
         {
-            return width == other.width && height == other.height;
+            return width == other.width && height == other.height
+                || width == other.height && height == other.width;
         }
-        public static bool operator ==(RectAngle rectAngle1,RectAngle rectAngle2)
+        public int CompareTo(RectAngle target)
         {
-            return rectAngle1.width == rectAngle2.width && rectAngle1.height == rectAngle2.height;
+            var val = this.GetSurface() - target.GetSurface();
+            var r=0;
+            if (val > 0)
+            {
+                r = 1;
+            }
+            else if(r<0)
+            {
+                r = -1;
+            }
+            return r;
+        }
+
+        public static bool operator ==(RectAngle rectAngle1, RectAngle rectAngle2)
+        {
+            return rectAngle1.width == rectAngle2.width
+                && rectAngle1.height == rectAngle2.height
+                || rectAngle1.width == rectAngle2.height
+                && rectAngle1.height == rectAngle2.width;
         }
         public static bool operator !=(RectAngle rectAngle1, RectAngle rectAngle2)
         {
-            return !(rectAngle1.width == rectAngle2.width && rectAngle1.height == rectAngle2.height);
+            return !(rectAngle1.width == rectAngle2.width
+                && rectAngle1.height == rectAngle2.height
+                || rectAngle1.width == rectAngle2.height
+                && rectAngle1.height == rectAngle2.width);
         }
     }
 }

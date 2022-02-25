@@ -7,8 +7,8 @@ namespace InterfaceSample
     {
         static void Main(string[] args)
         {
-            RectAngle rectAngle1= new RectAngle(3, 5);
-            RectAngle rectAngle2 = new RectAngle(3, 5);
+            RectAngle rectAngle1= new RectAngle(5, 5);
+            RectAngle rectAngle2 = new RectAngle(5, 3);
             if (rectAngle1 == rectAngle2)   //同じインスタンスであるかを比較を内容比較に変えてある
             {
                 Console.WriteLine("二つは同じ長方形");
@@ -25,6 +25,15 @@ namespace InterfaceSample
             {
                 Console.WriteLine("二つは違う長方形");
             }
+            if (rectAngle1.CompareTo(rectAngle2)>0)   //同じ内容であるかを比較
+            {
+                Console.WriteLine("rectAngle1が大きい");
+            }
+            else
+            {
+                Console.WriteLine("rectAngle1が小さい");
+            }
+
 
             #region
             /*            var test1 = rectAngle1.GetSurface();
