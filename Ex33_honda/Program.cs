@@ -49,13 +49,6 @@ namespace EX33_hint
             Console.WriteLine($"RectAngle(1,5)+RectAngle(2,3)=({rectAngle10.width},{rectAngle10.height})");
             rectAngle10 = (new RectAngle(5, 1)) + new RectAngle(2, 3);
             Console.WriteLine($"RectAngle(5,1)+RectAngle(2,3)=({rectAngle10.width},{rectAngle10.height})");
-
-
-
-
-
-
         }
-
     }
 }
