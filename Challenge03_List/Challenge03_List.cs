@@ -9,7 +9,7 @@ namespace Challenge03_List
         static char[] t = new char[] { 'I', 'O', 'S', 'Z', 'J', 'L', 'T' };
         static List<List<char>> minoPattern = new List<List<char>>();
         static int minoPatternId = 0;
-
+        
         static void Main(string[] args)
         {
             //全部を用意すると5040個の配列を用意する
@@ -55,7 +55,7 @@ namespace Challenge03_List
                                     {
                                         s[6]=l6[i6];
                                         minoPattern.Add(s.ToList<char>());
-                                        Console.WriteLine(s.ToArray<char>().ToString());
+                                        Console.WriteLine(s.ToArray<char>());
                                     }
                                 }
                             }
